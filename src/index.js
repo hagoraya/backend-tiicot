@@ -4,7 +4,7 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 
-//expres app
+//express app
 const app = express();
 
 var PORT = process.env.PORT || 5000;
